@@ -1,0 +1,307 @@
+body {
+    width: 1600px;
+    height: 1200px;
+}
+.container1 {
+    width: 800px;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px;  
+    background: #BCE6EC;
+}
+.logo{
+    width: 218.4px;
+}
+.container1-box {
+    width: 640px;
+    height: 248px;
+    margin-top: 800px;
+}
+.container1-title {
+    width: 520px;
+    height: 160px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 80px;
+    color: #010101;
+}
+.container1-content-box {
+    display: flex;
+    flex-direction: row;
+}
+.box {
+    width: 192px;
+    height: 72px;
+    right: 80px;
+    bottom: 248px;
+    background: #F7FBFA;
+    border-radius: 48px;
+}
+.strelochka {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.container1-text {
+    margin-top: 24px;
+    width: 640px;
+    height: 64px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202025;
+}
+.container2 {
+    margin-left: 800px;
+    margin-top: -1200px;
+    padding: 80px;
+    width: 800px;
+    height: 1200px;
+    background: #010101;
+}
+.container2-box {
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.container2-box-title {
+    margin-top: 136px;
+    width: 640px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 48px;
+    color: #F7FBFA;
+}
+.container2-box-list {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+}
+.container2-box-Ethereum {
+    width: 37px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.container2-box-Flow {
+    width: 37px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.container2-box-Solana {
+    width: 37px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.container2-box-Polygon {
+    width: 37px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686A6C;
+}
+.container2-box-Ethereum:hover {
+    color: #F7FBFA;
+}
+.container2-box-Flow:hover {
+    color: #F7FBFA;
+}
+.container2-box-Solana:hover {
+    color: #F7FBFA;
+}
+.container2-box-Polygon:hover {
+    color: #F7FBFA;
+}
+.wallet-icon-container {
+    margin-top: 64px;
+    gap: 20px;
+}
+.wallet-icon-box1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 640px;
+    height: 80px;
+}
+.wallet-icon-text {
+    margin-top: 20px;
+    width: 120px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #E1E2E2;
+}
+.wallet-icon-box1:hover {
+    border: 2px solid #4c7a08;
+    border-radius: 12px;
+    background: #202025;
+}
+.wallet-icon-box2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 640px;
+    height: 80px;
+}
+.wallet-icon2-text {
+    margin-top: 20px;
+    width: 169px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #E1E2E2;
+}
+.wallet-icon-box2:hover {
+    border: 2px solid #4c7a08;
+    border-radius: 12px;
+    background: #202025;
+}
+.wallet-icon3-box1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 640px;
+    height: 80px;
+}
+.wallet-icon3-text {
+    margin-top: 20px;
+    width: 200px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #E1E2E2;
+}
+.wallet-icon3-box1:hover {
+    border: 2px solid #4c7a08;
+    border-radius: 12px;
+    background: #202025;
+}
+.wallet-icon4-box1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 640px;
+    height: 80px;
+}
+.wallet-icon4-text {
+    margin-top: 20px;
+    width: 168px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #E1E2E2;
+}
+.wallet-icon4-box1:hover {
+    border: 2px solid #4c7a08;
+    border-radius: 12px;
+    background: #202025;
+}
+.wallet-icon {
+    margin-top: 17px;
+    width: 40px;
+    height: 40px;
+}
+.wallet-icon2 {
+    margin-top: 17px;
+    width: 40px;
+    height: 40px;
+}
+.wallet-icon3 {
+    margin-top: 17px;
+    width: 40px;
+    height: 40px;
+}
+.wallet-icon4 {
+    margin-top: 17px;
+    width: 40px;
+    height: 40px;
+}
+.container2-box-placeholder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 640px;
+    height: 24px;
+}
+.container2-text {
+    width: 150px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F7FBFA;
+}
+.last-container {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 8px;
+    width: 640px;
+    height: 52px;
+}
+.last-container-text1 {
+    width: 300px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #686A6C;
+}
+.last-container-text2 {
+    width: 47px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #F7FBFA;
+}
